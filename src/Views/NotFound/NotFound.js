@@ -1,20 +1,16 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router';
+import React, {Component} from 'react';
+import {Image} from 'react-router';
 import Layout from 'Layout/Layout';
+let kid = require('kid.png');
 
 class NotFound extends Component {
-  render() {
-    return (
-      <Layout>
-        <div className="NotFound">
-          <div className="NotFound-header">
-            <h2>Not found</h2>
-          </div>
-          <Link to="/Settings">Administración</Link>
-        </div>
-      </Layout>
-    );
-  }
+    render() {
+        return (
+            <Layout>
+                <img src={kid}></img>
+            </Layout>
+        );
+    }
 }
 
 export default NotFound;
