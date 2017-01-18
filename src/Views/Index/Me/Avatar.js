@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Av from 'material-ui/Avatar';
 let kid = require('jairo.jpg');
-
+let style;
 
 
 class Avatar extends Component {
@@ -15,10 +15,9 @@ class Avatar extends Component {
 export default Avatar;
 
 
-const style = {
+style = {
   avatar: {
     marginLeft: '50%',
     transform: 'translateX(-50%)',
-    marginTop: '30px'
   }
 }

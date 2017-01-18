@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+let style;
 
 class Name extends Component {
   render() {
@@ -11,11 +12,12 @@ class Name extends Component {
 export default Name;
 
 
-const style = {
+style = {
   name: {
     marginLeft: '50%',
     display: 'inline-block',
     transform: 'translateX(-50%)',
-    fontSize: '60px'
+    fontSize: '60px',
+    marginTop: '50px'
   }
 }
