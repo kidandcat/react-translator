@@ -81,7 +81,6 @@ module.exports = {
         root: [
             path.resolve('./src/libs'),
             path.resolve('./src/Views'),
-            path.resolve('./src/Components'),
             path.resolve('./src/assets'),
             path.resolve('./node_modules')
         ]

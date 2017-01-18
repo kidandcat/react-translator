@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {Image} from 'react-router';
-import Layout from 'Layout/Layout';
+import Layout from 'Index/Layout';
 let kid = require('kid.png');
 
-class NotFound extends Component {
+class Index extends Component {
     render() {
         return (
             <Layout>
@@ -13,4 +13,4 @@ class NotFound extends Component {
     }
 }
 
-export default NotFound;
+export default Index;
