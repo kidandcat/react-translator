@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Chip from 'material-ui/Chip';
 import {grey400} from 'material-ui/styles/colors';
 import Avatar from 'material-ui/Avatar';
-let icon = require('github.svg');
+let icon = require('stack2.png');
 let style;
 
 class One extends Component {
@@ -12,14 +12,13 @@ class One extends Component {
     }
 
     handleClick(event) {
-        window.open('http://github.com/kidandcat', '_blank');
+        window.open('https://stackoverflow.com/users/4158710/jairo', '_blank');
     }
-
     render() {
         return (
             <Chip backgroundColor={grey400} style={style.chip} onClick={this.handleClick}>
                 <Avatar src={icon}/>
-                Github
+                Stackoverflow
             </Chip>
         )
     }

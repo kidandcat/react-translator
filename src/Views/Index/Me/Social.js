@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Github from 'Index/Me/Chips/Github';
+import Stackoverflow from 'Index/Me/Chips/Stackoverflow';
 let style;
 
 class Social extends Component {
@@ -7,6 +8,7 @@ class Social extends Component {
     return (
         <div style={style.name}>
           <Github />
+          <Stackoverflow />
         </div>
     )
   }
@@ -18,7 +20,7 @@ export default Social;
 style = {
   name: {
     marginLeft: '50%',
-    display: 'inline-block',
+    display: 'flex',
     transform: 'translateX(-50%)',
     marginTop: '30px',
     fontSize: '60px'
