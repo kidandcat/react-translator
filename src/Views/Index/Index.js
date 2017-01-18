@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import {Image} from 'react-router';
 import Layout from 'Index/Layout';
-let kid = require('kid.png');
+import Me from 'Index/Me/Me';
 
 class Index extends Component {
     render() {
         return (
             <Layout>
-                <img src={kid}></img>
+                <Me />
             </Layout>
         );
     }
