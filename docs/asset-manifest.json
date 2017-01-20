@@ -1,6 +1,10 @@
 {
-  "main.js": "static/js/main.57619b78.js",
-  "main.js.map": "static/js/main.57619b78.js.map",
+  "main.css": "static/css/main.642402e2.css",
+  "main.css.map": "static/css/main.642402e2.css.map",
+  "main.js": "static/js/main.76cc53a6.js",
+  "main.js.map": "static/js/main.76cc53a6.js.map",
   "static/media/github.svg": "static/media/github.76d344f0.svg",
-  "static/media/jairo.jpg": "static/media/jairo.97366232.jpg"
+  "static/media/jairo.jpg": "static/media/jairo.97366232.jpg",
+  "static/media/linkin.png": "static/media/linkin.fa52c1c9.png",
+  "static/media/stack.svg": "static/media/stack.45fd64e9.svg"
 }

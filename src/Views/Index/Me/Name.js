@@ -18,6 +18,7 @@ style = {
     display: 'inline-block',
     transform: 'translateX(-50%)',
     fontSize: '60px',
-    marginTop: '50px'
+    marginTop: '70px',
+    color: '#545659'
   }
 }
