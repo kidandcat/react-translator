@@ -1,23 +1,21 @@
 import React, {Component} from 'react';
-import {movil} from 'helpers';
+import {movil, stylex} from 'helpers';
 let style;
 
 class Name extends Component {
-    render() {
-        if (movil()) {
+    componentDidMount() {
+        movil(() => {
             style.name.fontSize = '30px';
-            return (
-                <div style={style.name}>Jairo
-                    <span style={{display: 'inline-block'}}>
-                        Caro-Accino
-                    </span>
-                    Viciana</div>
-            )
-        } else {
-            return (
-                <div style={style.name}>Jairo Caro-Accino Viciana</div>
-            )
-        }
+            this.forceUpdate();
+        }, () => {
+            style.name.fontSize = '60px';
+            this.forceUpdate();
+        });
+    }
+    render() {
+        return (
+            <div style={stylex(style.name)}>Jairo Caro-Accino Viciana</div>
+        )
     }
 }
 

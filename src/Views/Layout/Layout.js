@@ -3,15 +3,6 @@ import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 let style;
 
 class Lay extends Component {
-    constructor() {
-      super();
-      let self = this;
-      window.onresize = () => {
-        alert('rerender');
-        self.forceUpdate();
-      }
-    }
-
     render() {
         return (
             <div style={style.nav}>
