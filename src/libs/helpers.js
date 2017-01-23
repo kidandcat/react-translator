@@ -18,4 +18,12 @@ let multiStyle = function(){
   return out;
 }
 
-export {isNumber, multiStyle};
+let movil = function(){
+  let mediaQuery = window.matchMedia('(min-width: 650px)');
+  if(mediaQuery.matches){
+    return false;
+  }
+  return true;
+}
+
+export {isNumber, multiStyle, movil};

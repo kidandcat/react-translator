@@ -5,7 +5,9 @@ import Index from 'Index/Index';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 
+
 ReactDOM.render(
     <Router history={browserHistory}>
-    <Route path="*" component={Index}/>
-</Router>, document.getElementById('root'));
+        <Route path="*" component={Index}/>
+    </Router>
+, document.getElementById('root'));
