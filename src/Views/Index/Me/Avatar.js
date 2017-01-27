@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {movil, stylex} from 'helpers';
+import {Zoom} from 'animations';
+
 let kid = require('jairo.jpg');
 let style;
 
@@ -14,9 +16,10 @@ class Avatar extends Component {
             style.avatar.height = '300px';
             this.forceUpdate();
         });
+        Zoom('#avatar');
     }
     render() {
-        return (<img src={kid} alt="Avatar" style={stylex(style.avatar)}/>)
+        return (<img src={kid} alt="Avatar" id="avatar" style={stylex(style.avatar)}/>)
     }
 }
 

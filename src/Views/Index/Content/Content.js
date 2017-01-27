@@ -24,10 +24,16 @@ class Out extends Component {
         return (
             <div style={style.content}>
                 <Tabs activeTab={this.state.activeTab} onChange={this.tabChange} ripple>
-                    <Tab>Studies</Tab>
-                    <Tab>Lannisters</Tab>
-                    <Tab>Targaryens</Tab>
+                    <Tab>Left</Tab>
+                    <Tab>Mid</Tab>
+                    <Tab>Right</Tab>
                 </Tabs>
+                <div style={style.text}>
+                    <span>Awesome animations using </span>
+                    <a href="http://anime-js.com">anime-js.com</a>
+                    <span> along with </span>
+                    <a href="https://facebook.github.io/react/">React</a>
+                </div>
             </div>
         )
     }
@@ -40,6 +46,11 @@ style = {
         marginLeft: '50%',
         transform: 'translateX(-50%)',
         marginTop: '16em',
-        width: '80%'
+        width: '80%',
+        textAlign: 'center'
+    },
+    text: {
+        marginTop: '80px',
+        fontSize: '2em'
     }
 }

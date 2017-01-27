@@ -20,12 +20,12 @@ window.navigate = function(path, direction) {
     direction = direction || '';
     switch (direction) {
         case 'left':
-            Left(() => {
+            Left('body', () => {
                 browserHistory.push(path);
             });
             break;
         default:
-            Right(() => {
+            Right('body', () => {
                 browserHistory.push(path);
             });
     }

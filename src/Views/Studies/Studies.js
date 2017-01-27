@@ -20,7 +20,7 @@ class Index extends Component {
     render() {
         return (
             <Layout>
-                <Button onClick={this.index} style={style.buton} raised colored>Index</Button>
+                <Button onClick={this.index} style={style.buton} raised colored>Back</Button>
             </Layout>
         );
     }
@@ -30,6 +30,8 @@ export default Index;
 
 style = {
   buton: {
-    margin: '50px'
+    transform: 'translateX(-50%)',
+    marginLeft: '50%',
+    marginTop: '300px'
   }
 }
