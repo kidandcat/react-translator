@@ -14,7 +14,7 @@ class Name extends Component {
     }
     render() {
         return (
-            <div style={stylex(style.name)}>Jairo Caro-Accino Viciana</div>
+            <div style={stylex(style.name)}>Jairo <span style={style.caro}>Caro-Accino</span> Viciana</div>
         )
     }
 }
@@ -29,5 +29,8 @@ style = {
         fontSize: '60px',
         marginTop: '70px',
         lineHeight: '30px'
+    },
+    caro: {
+      whiteSpace: 'nowrap'
     }
 }

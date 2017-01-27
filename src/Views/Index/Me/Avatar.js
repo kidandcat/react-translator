@@ -28,6 +28,7 @@ export default Avatar;
 style = {
     avatar: {
         marginLeft: '50%',
+        marginTop: '70px',
         width: '300px',
         height: '300px',
         borderRadius: '300px',

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Layout from 'Layout/Layout';
-import {Button} from 'react-mdl';
 let style;
 
 class Index extends Component {
@@ -20,7 +19,7 @@ class Index extends Component {
     render() {
         return (
             <Layout>
-                <Button onClick={this.index} style={style.buton} raised colored>Back</Button>
+                <button onClick={this.index} style={style.buton}>Back</button>
             </Layout>
         );
     }
