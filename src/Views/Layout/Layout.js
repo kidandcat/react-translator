@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
+import {Layout, Header, Content} from 'react-mdl';
 let style;
 
 class Lay extends Component {
@@ -7,15 +7,7 @@ class Lay extends Component {
         return (
             <div style={style.nav}>
                 <Layout>
-                    <Header title="Jairo Caro-Accino Viciana" />
-                    <Drawer title="Menu">
-                        <Navigation>
-                            <a href="">Link</a>
-                            <a href="">Link</a>
-                            <a href="">Link</a>
-                            <a href="">Link</a>
-                        </Navigation>
-                    </Drawer>
+                    <Header title=""/>
                     <Content>
                         {this.props.children}
                     </Content>
