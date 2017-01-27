@@ -25,7 +25,7 @@ style = {
     navbar: {
         backgroundColor: 'rgb(74, 74, 74)',
         zIndex: 1010,
-        width: '3000%',
+        width: '4000px',
         transform: 'translateX(-50%)',
         height: '70px',
         position: 'fixed'
