@@ -19,13 +19,12 @@ style = {
     container: {
         height: '100vh',
         marginTop: '0',
-        marginLeft: '0',
-        overflowY: 'hidden'
+        marginLeft: '0'
     },
     navbar: {
         backgroundColor: 'rgb(74, 74, 74)',
         zIndex: 1010,
-        width: '4000px',
+        width: '3000%',
         transform: 'translateX(-50%)',
         height: '70px',
         position: 'fixed'
