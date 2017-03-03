@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Layout from 'Layout/Layout';
+import t from 'translator';
 let style;
 
 class Out extends Component {
@@ -14,7 +15,7 @@ class Out extends Component {
                     active: true
                 }
             ]}>
-                Usuarios
+                {t('Users')}
             </Layout>
         );
     }
