@@ -1,6 +1,27 @@
-html, body{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Fix to set white the NavBar right text, username */
+
+#basic-nav-dropdown {
+    color: white;
+    background-color: #002539;
+}
+
+#basic-nav-dropdown:hover {
+    background-color: black;
+    background-image: none;
+}
+
+.dropdown ul.dropdown-menu {
+   background-color: #002539;
+}
+
+.dropdown ul.dropdown-menu a {
+   color: white;
 }

@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
 import Layout from 'Layout/Layout';
-import Me from 'Index/Me/Me';
-import Content from 'Index/Content/Content';
+import t from 'translator';
 
 class Index extends Component {
     render() {
         return (
-            <Layout>
-                <Me/>
-                <Content/>
+            <Layout breads={[{
+                    text: 'Inicio',
+                    active: true
+                }
+            ]}>
+              {t('Welcome to Indigitall 2.0')}
             </Layout>
         );
     }
