@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Scrollbars} from 'react-custom-scrollbars';
+import LoadingBar from 'Layout/LoadingBar';
 
 import {
     Nav,
@@ -19,6 +20,7 @@ class Lay extends Component {
     render() {
         return (
             <Scrollbars style={style.container}>
+              <LoadingBar />
                 <Navbar fluid style={style.navbar}>
                     <Navbar.Header>
                         <Navbar.Brand>
@@ -62,6 +64,7 @@ class Lay extends Component {
                         {this.props.children}
                     </Panel>
                 </Col>
+                <footer style={style.footer}>© {new Date().getFullYear()} indigitall - Powered by Indigitall</footer>
             </Scrollbars>
         );
     }
@@ -95,5 +98,11 @@ style = {
     navbar: {
         backgroundImage: 'none',
         backgroundColor: '#002539'
+    },
+    footer:{
+      position: 'absolute',
+      bottom: 0,
+      marginLeft: '50%',
+      transform: 'translate(-50%)'
     }
 }
