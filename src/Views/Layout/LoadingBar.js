@@ -21,9 +21,6 @@ class Lay extends Component {
             setTimeout(timeout, 100);
 
             function timeout(){
-              console.log('time', time);
-              console.log('localTime', localTime);
-              console.log('percent', (localTime * 100) / time);
               self.setState({
                 time: 0.1,
                 percent: (localTime * 100) / time
